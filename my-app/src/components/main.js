@@ -1,4 +1,6 @@
 //computerPlay function that will randomly return either 'Rock', 'Paper', or 'Scissors'
+import React from 'react';
+
 function computerPlay() {
     const number = Math.random() * 3;
     if(number <= 1) {
